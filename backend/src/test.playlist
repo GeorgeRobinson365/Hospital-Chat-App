@@ -1,0 +1,48 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Backend.API.Tests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Backend.API.Tests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="Tests" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Backend.API.Tests.Tests.Test_FetchChatsForUser_With_ValidToken" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_FetchChatsForUser_With_ValidToken" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Backend.API.Tests.Tests.Test_SignUp_Process_When_Id_On_FirebaseToken_Does_Match_json" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_SignUp_Process_When_Id_On_FirebaseToken_Does_Match_json" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Backend.API.Tests.Tests.Test_SignUp_Process_When_Id_On_FirebaseToken_Does_Not_Match_json" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_SignUp_Process_When_Id_On_FirebaseToken_Does_Not_Match_json" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Backend.API.Tests.Tests.Test_SimulateLogin_For_User_123_DoctorRole" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_SimulateLogin_For_User_123_DoctorRole" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

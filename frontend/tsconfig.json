@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@public/*":["public/*"] //comment to trigger deployment 3
+    },
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "src/**/*.svelte",
+    "assets/scripts/cookieconsent-init.js"  ],
+  "exclude": [
+    "node_modules/*", 
+    "__sapper__/*", 
+    "public/*"
+  ],
+}

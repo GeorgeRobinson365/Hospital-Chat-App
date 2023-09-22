@@ -1,0 +1,200 @@
+vaadin-text-field,
+vaadin-date-picker,
+vaadin-combo-box,
+vaadin-number-field,
+vaadin-integer-field {
+  width: 100%;
+}
+
+vaadin-list-box {
+  max-height: 10rem;
+}
+
+/* remove scrollbars from labels*/
+::part(label) {
+  overflow-y: hidden !important;
+}
+
+/* remove all asterisks from required fields */
+::part(required-indicator)::after {
+  content: '' !important;
+}
+
+/*Fixes Material Label in Vaadin combo box*/
+vaadin-combo-box.has-prefix:not([focused]):not([has-value]):not([invalid])::part(label) {
+  margin-left: 1.5rem;
+}
+
+::part(checkmark) {
+  width: 0px !important;
+}
+
+vaadin-select-item {
+  color: var(--remundo-primary-color);
+}
+
+/*Fixes Material Label in Vaadin combo box*/
+vaadin-number-field.has-prefix-character-1:not([focused]):not([has-value]):not([invalid])::part(
+    label
+  ) {
+  margin-left: 0.8rem;
+}
+
+vaadin-number-field.has-prefix-character-2:not([focused]):not([has-value]):not([invalid])::part(
+    label
+  ) {
+  margin-left: 1.5rem;
+}
+
+vaadin-number-field.has-prefix-character-3:not([focused]):not([has-value]):not([invalid])::part(
+    label
+  ) {
+  margin-left: 2.2rem;
+}
+
+vaadin-integer-field.has-prefix-character-3:not([focused]):not([has-value]):not([invalid])::part(
+    label
+  ) {
+  margin-left: 2.2rem;
+}
+
+vaadin-integer-field::part(label) {
+  text-align: left;
+}
+
+vaadin-integer-field.label-on-top::part(label) {
+  text-align: center;
+  margin: 0px !important;
+  font-size: 1.2rem;
+}
+
+vaadin-number-field::part(decrease-button),
+vaadin-number-field::part(increase-button),
+vaadin-integer-field::part(increase-button),
+vaadin-integer-field::part(increase-button) {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: var(--remundo-primary-color);
+}
+
+vaadin-number-field[disabled]::part(decrease-button),
+vaadin-number-field[disabled]::part(increase-button),
+vaadin-integer-field[disabled]::part(increase-button),
+vaadin-integer-field[disabled]::part(increase-button) {
+  color: var(--remundo-secondary-color-dark);
+}
+
+::part(input-field)::after {
+  height: 1px !important;
+}
+
+vaadin-button[secondary] {
+  background-color: var(--remundo-accent-color);
+  box-shadow: none;
+  padding: 3px 10px;
+  box-sizing: content-box;
+  border-radius: 20px;
+  max-height: 2em;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: none;
+}
+
+vaadin-button[secondary]::part(label) {
+  color: white !important;
+}
+
+::part(toggle-button)::before {
+  content: var(--material-icons-chevron-right);
+  font-size: 30px;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  transform: rotate(90deg);
+  color: var(--remundo-primary-color);
+}
+
+:not(vaadin-button)[focused]:not([invalid])::part(label) {
+  color: var(--remundo-secondary-color-dark);
+}
+
+:not(vaadin-select)[focused]:not([invalid])::part(label) {
+  color: var(--remundo-secondary-color-dark);
+}
+
+vaadin-date-picker-overlay {
+  --material-secondary-text-color: var(--remundo-primary-color);
+  --material-primary-color: rgb(255, 157, 0);
+}
+
+vaadin-item::part(content) {
+  color: var(--remundo-primary-color);
+}
+
+vaadin-select-item::part(content) {
+  color: var(--remundo-primary-color);
+}
+
+vaadin-notification-card[slot='top-end'] {
+  top: 5rem;
+}
+
+vaadin-notification-card[slot='bottom-end'] {
+  bottom: 2rem;
+}
+
+.combobox-dropdown-arrow-hidden::part(toggle-button)::before {
+  opacity: 0;
+  cursor: default;
+}
+.combobox-hide-underline::part(input-field)::before,
+.combobox-hide-underline::part(input-field)::after {
+  display: none;
+}
+
+[disabled]::part(toggle-button)::before {
+  color: var(--remundo-secondary-color-dark);
+}
+
+.candidate-editing::part(input-field) {
+  background: #f7f7fb;
+  border-radius: var(--remundo-border-radius-m);
+  border-bottom: none;
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+.candidate-editing::part(input-field)::before {
+  display: none;
+}
+
+vaadin-combo-box-overlay {
+  z-index: 99999;
+}
+
+.expenses-editing::part(input-field) {
+  height: 2.5rem;
+  background: #f7f7fb;
+  border-radius: var(--remundo-border-radius-m);
+  border-bottom: none;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+.expenses-editing::part(input-field)::before {
+  display: none;
+}
+
+[theme~='warning']::part(content) {
+  background: var(--remundo-accent-color) !important;
+  color: white !important;
+  border-radius: 0.5rem;
+}
+.time-editing::part(input-field) {
+  color: var(--remundo-primary-color);
+  background: #f7f7fb;
+  border-radius: var(--remundo-border-radius-m);
+  border-bottom: none;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

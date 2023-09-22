@@ -1,0 +1,4122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Chromium_playwright_\test\http.test.ts" id="0" tests="3" skipped="0" errors="0" failures="0" time="18.339">
+    <properties>
+      <property name="test.fileName" value="test\http.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Long pulling fails with message &apos;There is a problem with our services.&apos;" time="9.165" classname="Http Client" file="test\http.test.ts"/>
+    <testcase name="Long pulling returns data if etag is changed&apos;" time="0.011" classname="Http Client" file="test\http.test.ts"/>
+    <testcase name="Long pulling calls error handling callback&apos;" time="9.163" classname="Http Client" file="test\http.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\localization-utils.test.ts" id="0" tests="6" skipped="0" errors="0" failures="0" time="0.002">
+    <properties>
+      <property name="test.fileName" value="test\localization-utils.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="can be converted to country name" time="0.001" classname="Country ISO Codes" file="test\localization-utils.test.ts"/>
+    <testcase name="can be converted to nationality name" time="0" classname="Country ISO Codes" file="test\localization-utils.test.ts"/>
+    <testcase name="countries can be listed" time="0.001" classname="Country ISO Codes" file="test\localization-utils.test.ts"/>
+    <testcase name="nationalities can be listed" time="0" classname="Country ISO Codes" file="test\localization-utils.test.ts"/>
+    <testcase name="nationalities array can be retrieved" time="0" classname="Country ISO Codes" file="test\localization-utils.test.ts"/>
+    <testcase name="countries array can be retrieved" time="0" classname="Country ISO Codes" file="test\localization-utils.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\metadataMapper.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="0.007">
+    <properties>
+      <property name="test.fileName" value="test\metadataMapper.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Can make cloud event when URL is: /api/quote/273f2e7e-f095-4a6b-b71d-ae466e13c56d/main-terms/allowances/Mobile" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="Can make cloud event when URL is: /api/quote/273f2e7e-f095-4a6b-b71d-ae466e13c56d/main-terms/allowances/Mobile" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="Can make cloud event when URL is: /api/contracting" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="Can make cloud event when URL is: /api/quote/273f2e7e-f095-4a6b-b71d-ae466e13c56d/main-terms/job-description" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="Can make cloud event when URL is: /api/quote/273f2e7e-f095-4a6b-b71d-ae466e13c56d/main-terms/signing-bonus" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="Can make cloud event when URL is: /api/quote/273f2e7e-f095-4a6b-b71d-ae466e13c56d/main-terms/signing-bonus" time="0" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="Can make cloud event when URL is: /api/quote/273f2e7e-f095-4a6b-b71d-ae466e13c56d/main-terms/salary" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+    <testcase name="create payload of unregistered endpoint returns unmodified object" time="0.001" classname="Metadata mapper" file="test\metadataMapper.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\regex.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.001">
+    <properties>
+      <property name="test.fileName" value="test\regex.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="tesasd t" time="0.001" classname="Regex" file="test\regex.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\components\CountriesCombobox.test.ts" id="0" tests="6" skipped="0" errors="0" failures="0" time="0.253">
+    <properties>
+      <property name="test.fileName" value="test\components\CountriesCombobox.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Has countries by default" time="0.117" classname="Combobox with Countries" file="test\components\CountriesCombobox.test.ts"/>
+    <testcase name="Has span with class fi fi-[iso] as in README https://github.com/lipis/flag-icons " time="0.049" classname="Combobox with Countries" file="test\components\CountriesCombobox.test.ts"/>
+    <testcase name="Has nationalities by default when nationalityMode" time="0.041" classname="Combobox with Countries" file="test\components\CountriesCombobox.test.ts"/>
+    <testcase name="Emits selected value when changed" time="0.033" classname="Combobox with Countries" file="test\components\CountriesCombobox.test.ts"/>
+    <testcase name="Is required when required attribute is passed (error is shown) and can be validated using generic utility function" time="0.007" classname="Combobox with Countries" file="test\components\CountriesCombobox.test.ts"/>
+    <testcase name="Is not required when required attribute is missing" time="0.006" classname="Combobox with Countries" file="test\components\CountriesCombobox.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\components\ProgressLine.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.012">
+    <properties>
+      <property name="test.fileName" value="test\components\ProgressLine.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="displays provided progress line" time="0.005" classname="Wizard progress line" file="test\components\ProgressLine.test.ts"/>
+    <testcase name="current step has a current class" time="0.001" classname="Wizard progress line" file="test\components\ProgressLine.test.ts"/>
+    <testcase name="next steps have next class" time="0.001" classname="Wizard progress line" file="test\components\ProgressLine.test.ts"/>
+    <testcase name="steps before have before class" time="0.002" classname="Wizard progress line" file="test\components\ProgressLine.test.ts"/>
+    <testcase name="ONLY steps before and current can be clicked" time="0.003" classname="Wizard progress line" file="test\components\ProgressLine.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\components\time-range.test.ts" id="0" tests="6" skipped="0" errors="0" failures="0" time="0.22000000000000003">
+    <properties>
+      <property name="test.fileName" value="test\components\time-range.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="When start date is after end date then error is displayed" time="0.181" classname="Time range" file="test\components\time-range.test.ts"/>
+    <testcase name="When start date is set and end date is empty" time="0.01" classname="Time range" file="test\components\time-range.test.ts"/>
+    <testcase name="When end date is set and start date is empty" time="0.008" classname="Time range" file="test\components\time-range.test.ts"/>
+    <testcase name="Show provided start and end" time="0.003" classname="Time range" file="test\components\time-range.test.ts"/>
+    <testcase name="Hides error message when both start date and end date is removed" time="0.01" classname="Time range" file="test\components\time-range.test.ts"/>
+    <testcase name="Validates max hours per day" time="0.008" classname="Time range" file="test\components\time-range.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\components\WeekTimeRange.test.ts" id="0" tests="5" skipped="0" errors="1" failures="1" time="0.15300000000000002">
+    <properties>
+      <property name="test.fileName" value="test\components\WeekTimeRange.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Shows defined time range on startup" time="0.04" classname="Week Time Range" file="test\components\WeekTimeRange.test.ts"/>
+    <testcase name="Returns invalid when any time range input is invalid" time="0.076" classname="Week Time Range" file="test\components\WeekTimeRange.test.ts"/>
+    <testcase name="Returns invalid when max hours of any time range input is exceeded" time="0.015" classname="Week Time Range" file="test\components\WeekTimeRange.test.ts"/>
+    <testcase name="Shows time summary in HH:MM" time="0.012" classname="Week Time Range" file="test\components\WeekTimeRange.test.ts" line="14001">
+      <failure message="Unable to find an element with the text: 4h 30m. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+&lt;body&gt;
+  
+  
+  &lt;div&gt;
+    &lt;div
+      class=&quot;week-time-range-container s-T5owEPu0QfA8&quot;
+    &gt;
+      &lt;div
+        class=&quot;week-time-range s-T5owEPu0QfA8&quot;
+      &gt;
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            MON
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+         
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            TUE
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+         
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            WED
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+         
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            THU
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+         
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            FRI
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+         
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            SAT
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+         
+        &lt;div
+          class=&quot;s-T5owEPu0QfA8&quot;
+        &gt;
+          &lt;div
+            class=&quot;s-T5owEPu0QfA8&quot;
+          &gt;
+            SUN
+          &lt;/div&gt;
+           
+          &lt;span
+            class=&quot;s-kHzuyAY2Vbd7&quot;
+            style=&quot;display: inline-block;&quot;
+          &gt;
+            &lt;span
+              class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+            &gt;
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+               
+              &lt;div
+                class=&quot;separator s-kHzuyAY2Vbd7&quot;
+              &gt;
+                —
+              &lt;/div&gt;
+               
+              &lt;input
+                class=&quot;s-kHzuyAY2Vbd7&quot;
+                placeholder=&quot;00:00&quot;
+              /&gt;
+            &lt;/span&gt;
+             
+             
+          &lt;/span&gt;
+          &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+       
+      &lt;div
+        class=&quot;s-T5owEPu0QfA8&quot;
+        style=&quot;text-align:center; color:gray&quot;
+      &gt;
+        &lt;span
+          class=&quot;s-T5owEPu0QfA8&quot;
+          style=&quot;font-size: 14px;&quot;
+        &gt;
+          Total Hours Selected: 
+          4
+          hours
+        &lt;/span&gt;
+      &lt;/div&gt;
+       
+    &lt;/div&gt;
+    
+    &lt;!--&amp;lt;WeekTimeRange&amp;gt;--&gt;
+  &lt;/div&gt;
+&lt;/body&gt;" type="TestingLibraryElementError"><![CDATA[TestingLibraryElementError: Unable to find an element with the text: 4h 30m. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+<body>
+  
+  
+  <div>
+    <div
+      class="week-time-range-container s-T5owEPu0QfA8"
+    >
+      <div
+        class="week-time-range s-T5owEPu0QfA8"
+      >
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            MON
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+         
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            TUE
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+         
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            WED
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+         
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            THU
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+         
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            FRI
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+         
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            SAT
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+         
+        <div
+          class="s-T5owEPu0QfA8"
+        >
+          <div
+            class="s-T5owEPu0QfA8"
+          >
+            SUN
+          </div>
+           
+          <span
+            class="s-kHzuyAY2Vbd7"
+            style="display: inline-block;"
+          >
+            <span
+              class="time-range s-kHzuyAY2Vbd7"
+            >
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+               
+              <div
+                class="separator s-kHzuyAY2Vbd7"
+              >
+                —
+              </div>
+               
+              <input
+                class="s-kHzuyAY2Vbd7"
+                placeholder="00:00"
+              />
+            </span>
+             
+             
+          </span>
+          <!--&lt;TimeRange&gt;-->
+        </div>
+      </div>
+       
+      <div
+        class="s-T5owEPu0QfA8"
+        style="text-align:center; color:gray"
+      >
+        <span
+          class="s-T5owEPu0QfA8"
+          style="font-size: 14px;"
+        >
+          Total Hours Selected: 
+          4
+          hours
+        </span>
+      </div>
+       
+    </div>
+    
+    <!--&lt;WeekTimeRange&gt;-->
+  </div>
+</body>
+  at Object.getElementError (node_modules\.vite\@testing-library_svelte.js:14001:21)
+  at node_modules\.vite\@testing-library_svelte.js:13560:25
+  at node_modules\.vite\@testing-library_svelte.js:13540:24
+  at node_modules\.vite\@testing-library_svelte.js:14024:29
+  at o.<anonymous> (test\components\WeekTimeRange.test.ts:102:9)]]></failure>
+    </testcase>
+    <testcase name="Validates number of hours per week" time="0.01" classname="Week Time Range" file="test\components\WeekTimeRange.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\cost-line.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.044">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\cost-line.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="recursively renders cost line" time="0.044" classname="Cost line component" file="test\contract-quote\cost-line.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\period-panel.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="0.121">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\period-panel.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="has Regional Standard (Preselected) and Custom Schedule and numerical input disabled by defualt with value of standard Days" time="0.038" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="has Custom Schedule Preselected and numerical enabled by defualt with value differnt than standard Days" time="0.016" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When Custom Schedule is selected then numerical input is enabled" time="0.013" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When max is exceeded then error is shown" time="0.009" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When min is not meet then error is shown" time="0.009" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When custom schedule days value is changed, then the summary panel has the information including label" time="0.014" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When custom schedule days value is set and Regional Standard is selected again then the days in the panels summary and days input should be set back to regional standard value" time="0.012" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When days is 0 then summary shows &quot;None&quot;" time="0.002" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+    <testcase name="When custom schedule days value is changed but the value equals standard days, then summay panel displays Regional Standard" time="0.008" classname="Period Panel" file="test\contract-quote\period-panel.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\protecation-clauses.test.ts" id="0" tests="3" skipped="0" errors="0" failures="0" time="0.637">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\protecation-clauses.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Displays obligatory protection clauses" time="0.024" classname="Protection clauses" file="test\contract-quote\protecation-clauses.test.ts"/>
+    <testcase name="Displays editable protection clauses and possible options with defaults selected" time="0.149" classname="Protection clauses" file="test\contract-quote\protecation-clauses.test.ts"/>
+    <testcase name="When editable protection clauses values change, then the caption changes to the selected value" time="0.464" classname="Protection clauses" file="test\contract-quote\protecation-clauses.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\radioGroup.test.ts" id="0" tests="2" skipped="0" errors="0" failures="0" time="0.020999999999999998">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\radioGroup.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="displays description, options and marks default option" time="0.015" classname="Radio Group" file="test\contract-quote\radioGroup.test.ts"/>
+    <testcase name="executes function on value changed" time="0.006" classname="Radio Group" file="test\contract-quote\radioGroup.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\employee-details.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="4.079">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\employee-details.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="When I add new team it is selected and add form is hidden" time="4.079" classname="Employee details" file="test\employee-contract-setup\employee-details.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\job-details.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.283">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\job-details.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="I can select employee&apos;s country: [Singapore, United Kingdom] for now" time="0.08" classname="Job details tests" file="test\employee-contract-setup\job-details.test.ts"/>
+    <testcase name="Country, city and job title and description must be selected" time="0.09" classname="Job details tests" file="test\employee-contract-setup\job-details.test.ts"/>
+    <testcase name="I can type custom Job Title and the title is saved" time="0.029" classname="Job details tests" file="test\employee-contract-setup\job-details.test.ts"/>
+    <testcase name="Shows available job titles" time="0.045" classname="Job details tests" file="test\employee-contract-setup\job-details.test.ts"/>
+    <testcase name="Job details are preset" time="0.039" classname="Job details tests" file="test\employee-contract-setup\job-details.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\job-type.test.ts" id="2" tests="3" skipped="0" errors="3" failures="3" time="2.0319999999999996">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\job-type.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="When I define &quot;Part Time Engagement&quot; then hours per week cannot exceed local standard." time="1.011" classname="Job type:" file="test\employee-contract-setup\job-type.test.ts" line="13488">
+      <failure message="Unable to find role=&quot;radio&quot;
+
+&lt;body&gt;
+  
+  
+  &lt;div&gt;
+    &lt;div
+      class=&quot;job-types s-xsmyvmteKo9X&quot;
+    &gt;
+      &lt;div
+        class=&quot;s-xsmyvmteKo9X&quot;
+        style=&quot;text-align: center; margin-bottom: 4rem;&quot;
+      &gt;
+        &lt;div
+          class=&quot;row align-items-center s-xsmyvmteKo9X&quot;
+        &gt;
+          &lt;p
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;width: 75%; margin-left: 10rem; font-size: 16px;&quot;
+          &gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          &lt;/p&gt;
+           
+          &lt;div
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;margin-left: 7.5rem;&quot;
+          &gt;
+            &lt;svg
+              class=&quot;s-IRuyl3SM_s-U&quot;
+              height=&quot;2rem&quot;
+              style=&quot;fill: var(--remundo-primary-color);&quot;
+              viewBox=&quot;0 0 36 36&quot;
+              width=&quot;2rem&quot;
+            &gt;
+              &lt;path
+                class=&quot;clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U&quot;
+                d=&quot;M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z&quot;
+              /&gt;
+            &lt;/svg&gt;
+            &lt;!--&amp;lt;Tooltip&amp;gt;--&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+         
+        &lt;p
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;&quot;
+        &gt;
+          &lt;vaadin-icon
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;&quot;
+          /&gt;
+           Standard Schedule
+        &lt;/p&gt;
+         
+        &lt;span
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            class=&quot;week-time-range-container s-T5owEPu0QfA8&quot;
+          &gt;
+            &lt;div
+              class=&quot;week-time-range s-T5owEPu0QfA8&quot;
+            &gt;
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  MON
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  TUE
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  WED
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  THU
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  FRI
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SAT
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SUN
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+             
+            &lt;div
+              class=&quot;s-T5owEPu0QfA8&quot;
+              style=&quot;background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; &quot;
+            &gt;
+              &lt;span
+                class=&quot;s-T5owEPu0QfA8&quot;
+                style=&quot;font-size: 14px;&quot;
+              &gt;
+                Total Hours Selected: 
+                40
+                hours
+              &lt;/span&gt;
+            &lt;/div&gt;
+             
+          &lt;/div&gt;
+          
+          &lt;!--&amp;lt;WeekTimeRange&amp;gt;--&gt;
+        &lt;/span&gt;
+         
+        &lt;div
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;width: 100%; display: flex; min-height: 4.5rem;&quot;
+        &gt;
+          &lt;label
+            class=&quot;checkbox s-xsmyvmteKo9X&quot;
+          &gt;
+            &lt;input
+              class=&quot;s-xsmyvmteKo9X&quot;
+              id=&quot;Without Schedule&quot;
+              name=&quot;options&quot;
+              type=&quot;checkbox&quot;
+            /&gt;
+             
+            &lt;label
+              class=&quot;s-xsmyvmteKo9X&quot;
+              for=&quot;Without Schedule&quot;
+            &gt;
+              &lt;span
+                class=&quot;s-xsmyvmteKo9X&quot;
+                style=&quot;margin-left: 3rem; min-height: 2rem;&quot;
+              &gt;
+                Set working hours without schedule
+              &lt;/span&gt;
+            &lt;/label&gt;
+          &lt;/label&gt;
+           
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+     
+    &lt;button
+      aria-label=&quot;Done&quot;
+      class=&quot;s-hMm0BjcyFRvh&quot;
+    &gt;
+      &lt;vaadin-icon
+        class=&quot;s-xsmyvmteKo9X&quot;
+      /&gt;
+    &lt;/button&gt;
+    &lt;!--&amp;lt;Fab&amp;gt;--&gt;
+    &lt;!--&amp;lt;JobTypeForm&amp;gt;--&gt;
+    
+    &lt;!--&amp;lt;JobType&amp;gt;--&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;body&gt;
+  
+  
+  &lt;div&gt;
+    &lt;div
+      class=&quot;job-types s-xsmyvmteKo9X&quot;
+    &gt;
+      &lt;div
+        class=&quot;s-xsmyvmteKo9X&quot;
+        style=&quot;text-align: center; margin-bottom: 4rem;&quot;
+      &gt;
+        &lt;div
+          class=&quot;row align-items-center s-xsmyvmteKo9X&quot;
+        &gt;
+          &lt;p
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;width: 75%; margin-left: 10rem; font-size: 16px;&quot;
+          &gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          &lt;/p&gt;
+           
+          &lt;div
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;margin-left: 7.5rem;&quot;
+          &gt;
+            &lt;svg
+              class=&quot;s-IRuyl3SM_s-U&quot;
+              height=&quot;2rem&quot;
+              style=&quot;fill: var(--remundo-primary-color);&quot;
+              viewBox=&quot;0 0 36 36&quot;
+              width=&quot;2rem&quot;
+            &gt;
+              &lt;path
+                class=&quot;clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U&quot;
+                d=&quot;M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z&quot;
+              /&gt;
+            &lt;/svg&gt;
+            &lt;!--&amp;lt;Tooltip&amp;gt;--&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+         
+        &lt;p
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;&quot;
+        &gt;
+          &lt;vaadin-icon
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;&quot;
+          /&gt;
+           Standard Schedule
+        &lt;/p&gt;
+         
+        &lt;span
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            class=&quot;week-time-range-container s-T5owEPu0QfA8&quot;
+          &gt;
+            &lt;div
+              class=&quot;week-time-range s-T5owEPu0QfA8&quot;
+            &gt;
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  MON
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  TUE
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  WED
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  THU
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  FRI
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SAT
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SUN
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+             
+            &lt;div
+              class=&quot;s-T5owEPu0QfA8&quot;
+              style=&quot;background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; &quot;
+            &gt;
+              &lt;span
+                class=&quot;s-T5owEPu0QfA8&quot;
+                style=&quot;font-size: 14px;&quot;
+              &gt;
+                Total Hours Selected: 
+                40
+                hours
+              &lt;/span&gt;
+            &lt;/div&gt;
+             
+          &lt;/div&gt;
+          
+          &lt;!--&amp;lt;WeekTimeRange&amp;gt;--&gt;
+        &lt;/span&gt;
+         
+        &lt;div
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;width: 100%; display: flex; min-height: 4.5rem;&quot;
+        &gt;
+          &lt;label
+            class=&quot;checkbox s-xsmyvmteKo9X&quot;
+          &gt;
+            &lt;input
+              class=&quot;s-xsmyvmteKo9X&quot;
+              id=&quot;Without Schedule&quot;
+              name=&quot;options&quot;
+              type=&quot;checkbox&quot;
+            /&gt;
+             
+            &lt;label
+              class=&quot;s-xsmyvmteKo9X&quot;
+              for=&quot;Without Schedule&quot;
+            &gt;
+              &lt;span
+                class=&quot;s-xsmyvmteKo9X&quot;
+                style=&quot;margin-left: 3rem; min-height: 2rem;&quot;
+              &gt;
+                Set working hours without schedule
+              &lt;/span&gt;
+            &lt;/label&gt;
+          &lt;/label&gt;
+           
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+     
+    &lt;button
+      aria-label=&quot;Done&quot;
+      class=&quot;s-hMm0BjcyFRvh&quot;
+    &gt;
+      &lt;vaadin-icon
+        class=&quot;s-xsmyvmteKo9X&quot;
+      /&gt;
+    &lt;/button&gt;
+    &lt;!--&amp;lt;Fab&amp;gt;--&gt;
+    &lt;!--&amp;lt;JobTypeForm&amp;gt;--&gt;
+    
+    &lt;!--&amp;lt;JobType&amp;gt;--&gt;
+  &lt;/div&gt;
+&lt;/body&gt;" type="TestingLibraryElementError"><![CDATA[TestingLibraryElementError: Unable to find role="radio"
+
+<body>
+  
+  
+  <div>
+    <div
+      class="job-types s-xsmyvmteKo9X"
+    >
+      <div
+        class="s-xsmyvmteKo9X"
+        style="text-align: center; margin-bottom: 4rem;"
+      >
+        <div
+          class="row align-items-center s-xsmyvmteKo9X"
+        >
+          <p
+            class="s-xsmyvmteKo9X"
+            style="width: 75%; margin-left: 10rem; font-size: 16px;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+           
+          <div
+            class="s-xsmyvmteKo9X"
+            style="margin-left: 7.5rem;"
+          >
+            <svg
+              class="s-IRuyl3SM_s-U"
+              height="2rem"
+              style="fill: var(--remundo-primary-color);"
+              viewBox="0 0 36 36"
+              width="2rem"
+            >
+              <path
+                class="clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U"
+                d="M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z"
+              />
+            </svg>
+            <!--&lt;Tooltip&gt;-->
+          </div>
+        </div>
+         
+        <p
+          class="s-xsmyvmteKo9X"
+          style="font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;"
+        >
+          <vaadin-icon
+            class="s-xsmyvmteKo9X"
+            style="font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;"
+          />
+           Standard Schedule
+        </p>
+         
+        <span
+          class="s-xsmyvmteKo9X"
+          style="display: flex;"
+        >
+          <div
+            class="week-time-range-container s-T5owEPu0QfA8"
+          >
+            <div
+              class="week-time-range s-T5owEPu0QfA8"
+            >
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  MON
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  TUE
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  WED
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  THU
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  FRI
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SAT
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SUN
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+            </div>
+             
+            <div
+              class="s-T5owEPu0QfA8"
+              style="background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; "
+            >
+              <span
+                class="s-T5owEPu0QfA8"
+                style="font-size: 14px;"
+              >
+                Total Hours Selected: 
+                40
+                hours
+              </span>
+            </div>
+             
+          </div>
+          
+          <!--&lt;WeekTimeRange&gt;-->
+        </span>
+         
+        <div
+          class="s-xsmyvmteKo9X"
+          style="width: 100%; display: flex; min-height: 4.5rem;"
+        >
+          <label
+            class="checkbox s-xsmyvmteKo9X"
+          >
+            <input
+              class="s-xsmyvmteKo9X"
+              id="Without Schedule"
+              name="options"
+              type="checkbox"
+            />
+             
+            <label
+              class="s-xsmyvmteKo9X"
+              for="Without Schedule"
+            >
+              <span
+                class="s-xsmyvmteKo9X"
+                style="margin-left: 3rem; min-height: 2rem;"
+              >
+                Set working hours without schedule
+              </span>
+            </label>
+          </label>
+           
+        </div>
+      </div>
+    </div>
+     
+    <button
+      aria-label="Done"
+      class="s-hMm0BjcyFRvh"
+    >
+      <vaadin-icon
+        class="s-xsmyvmteKo9X"
+      />
+    </button>
+    <!--&lt;Fab&gt;-->
+    <!--&lt;JobTypeForm&gt;-->
+    
+    <!--&lt;JobType&gt;-->
+  </div>
+</body>
+
+<body>
+  
+  
+  <div>
+    <div
+      class="job-types s-xsmyvmteKo9X"
+    >
+      <div
+        class="s-xsmyvmteKo9X"
+        style="text-align: center; margin-bottom: 4rem;"
+      >
+        <div
+          class="row align-items-center s-xsmyvmteKo9X"
+        >
+          <p
+            class="s-xsmyvmteKo9X"
+            style="width: 75%; margin-left: 10rem; font-size: 16px;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+           
+          <div
+            class="s-xsmyvmteKo9X"
+            style="margin-left: 7.5rem;"
+          >
+            <svg
+              class="s-IRuyl3SM_s-U"
+              height="2rem"
+              style="fill: var(--remundo-primary-color);"
+              viewBox="0 0 36 36"
+              width="2rem"
+            >
+              <path
+                class="clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U"
+                d="M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z"
+              />
+            </svg>
+            <!--&lt;Tooltip&gt;-->
+          </div>
+        </div>
+         
+        <p
+          class="s-xsmyvmteKo9X"
+          style="font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;"
+        >
+          <vaadin-icon
+            class="s-xsmyvmteKo9X"
+            style="font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;"
+          />
+           Standard Schedule
+        </p>
+         
+        <span
+          class="s-xsmyvmteKo9X"
+          style="display: flex;"
+        >
+          <div
+            class="week-time-range-container s-T5owEPu0QfA8"
+          >
+            <div
+              class="week-time-range s-T5owEPu0QfA8"
+            >
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  MON
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  TUE
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  WED
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  THU
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  FRI
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SAT
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SUN
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+            </div>
+             
+            <div
+              class="s-T5owEPu0QfA8"
+              style="background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; "
+            >
+              <span
+                class="s-T5owEPu0QfA8"
+                style="font-size: 14px;"
+              >
+                Total Hours Selected: 
+                40
+                hours
+              </span>
+            </div>
+             
+          </div>
+          
+          <!--&lt;WeekTimeRange&gt;-->
+        </span>
+         
+        <div
+          class="s-xsmyvmteKo9X"
+          style="width: 100%; display: flex; min-height: 4.5rem;"
+        >
+          <label
+            class="checkbox s-xsmyvmteKo9X"
+          >
+            <input
+              class="s-xsmyvmteKo9X"
+              id="Without Schedule"
+              name="options"
+              type="checkbox"
+            />
+             
+            <label
+              class="s-xsmyvmteKo9X"
+              for="Without Schedule"
+            >
+              <span
+                class="s-xsmyvmteKo9X"
+                style="margin-left: 3rem; min-height: 2rem;"
+              >
+                Set working hours without schedule
+              </span>
+            </label>
+          </label>
+           
+        </div>
+      </div>
+    </div>
+     
+    <button
+      aria-label="Done"
+      class="s-hMm0BjcyFRvh"
+    >
+      <vaadin-icon
+        class="s-xsmyvmteKo9X"
+      />
+    </button>
+    <!--&lt;Fab&gt;-->
+    <!--&lt;JobTypeForm&gt;-->
+    
+    <!--&lt;JobType&gt;-->
+  </div>
+</body>
+  at waitForWrapper (node_modules\.vite\@testing-library_svelte.js:13488:25)
+  at node_modules\.vite\@testing-library_svelte.js:13567:12
+  at o.<anonymous> (test\employee-contract-setup\job-type.test.ts:71:37)]]></failure>
+    </testcase>
+    <testcase name="full time work frame can be predefined" time="1.017" classname="Job type:" file="test\employee-contract-setup\job-type.test.ts" line="13488">
+      <failure message="Unable to find role=&quot;radio&quot;
+
+&lt;body&gt;
+  
+  
+  &lt;div&gt;
+    &lt;div
+      class=&quot;job-types s-xsmyvmteKo9X&quot;
+    &gt;
+      &lt;div
+        class=&quot;s-xsmyvmteKo9X&quot;
+        style=&quot;text-align: center; margin-bottom: 4rem;&quot;
+      &gt;
+        &lt;div
+          class=&quot;row align-items-center s-xsmyvmteKo9X&quot;
+        &gt;
+          &lt;p
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;width: 75%; margin-left: 10rem; font-size: 16px;&quot;
+          &gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          &lt;/p&gt;
+           
+          &lt;div
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;margin-left: 7.5rem;&quot;
+          &gt;
+            &lt;svg
+              class=&quot;s-IRuyl3SM_s-U&quot;
+              height=&quot;2rem&quot;
+              style=&quot;fill: var(--remundo-primary-color);&quot;
+              viewBox=&quot;0 0 36 36&quot;
+              width=&quot;2rem&quot;
+            &gt;
+              &lt;path
+                class=&quot;clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U&quot;
+                d=&quot;M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z&quot;
+              /&gt;
+            &lt;/svg&gt;
+            &lt;!--&amp;lt;Tooltip&amp;gt;--&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+         
+        &lt;p
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;&quot;
+        &gt;
+          &lt;vaadin-icon
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;&quot;
+          /&gt;
+           Standard Schedule
+        &lt;/p&gt;
+         
+        &lt;span
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            class=&quot;week-time-range-container s-T5owEPu0QfA8&quot;
+          &gt;
+            &lt;div
+              class=&quot;week-time-range s-T5owEPu0QfA8&quot;
+            &gt;
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  MON
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  TUE
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  WED
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  THU
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  FRI
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SAT
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SUN
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+             
+            &lt;div
+              class=&quot;s-T5owEPu0QfA8&quot;
+              style=&quot;background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; &quot;
+            &gt;
+              &lt;span
+                class=&quot;s-T5owEPu0QfA8&quot;
+                style=&quot;font-size: 14px;&quot;
+              &gt;
+                Total Hours Selected: 
+                40
+                hours
+              &lt;/span&gt;
+            &lt;/div&gt;
+             
+          &lt;/div&gt;
+          
+          &lt;!--&amp;lt;WeekTimeRange&amp;gt;--&gt;
+        &lt;/span&gt;
+         
+        &lt;div
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;width: 100%; display: flex; min-height: 4.5rem;&quot;
+        &gt;
+          &lt;label
+            class=&quot;checkbox s-xsmyvmteKo9X&quot;
+          &gt;
+            &lt;input
+              class=&quot;s-xsmyvmteKo9X&quot;
+              id=&quot;Without Schedule&quot;
+              name=&quot;options&quot;
+              type=&quot;checkbox&quot;
+            /&gt;
+             
+            &lt;label
+              class=&quot;s-xsmyvmteKo9X&quot;
+              for=&quot;Without Schedule&quot;
+            &gt;
+              &lt;span
+                class=&quot;s-xsmyvmteKo9X&quot;
+                style=&quot;margin-left: 3rem; min-height: 2rem;&quot;
+              &gt;
+                Set working hours without schedule
+              &lt;/span&gt;
+            &lt;/label&gt;
+          &lt;/label&gt;
+           
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+     
+    &lt;button
+      aria-label=&quot;Done&quot;
+      class=&quot;s-hMm0BjcyFRvh&quot;
+    &gt;
+      &lt;vaadin-icon
+        class=&quot;s-xsmyvmteKo9X&quot;
+      /&gt;
+    &lt;/button&gt;
+    &lt;!--&amp;lt;Fab&amp;gt;--&gt;
+    &lt;!--&amp;lt;JobTypeForm&amp;gt;--&gt;
+    
+    &lt;!--&amp;lt;JobType&amp;gt;--&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;body&gt;
+  
+  
+  &lt;div&gt;
+    &lt;div
+      class=&quot;job-types s-xsmyvmteKo9X&quot;
+    &gt;
+      &lt;div
+        class=&quot;s-xsmyvmteKo9X&quot;
+        style=&quot;text-align: center; margin-bottom: 4rem;&quot;
+      &gt;
+        &lt;div
+          class=&quot;row align-items-center s-xsmyvmteKo9X&quot;
+        &gt;
+          &lt;p
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;width: 75%; margin-left: 10rem; font-size: 16px;&quot;
+          &gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          &lt;/p&gt;
+           
+          &lt;div
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;margin-left: 7.5rem;&quot;
+          &gt;
+            &lt;svg
+              class=&quot;s-IRuyl3SM_s-U&quot;
+              height=&quot;2rem&quot;
+              style=&quot;fill: var(--remundo-primary-color);&quot;
+              viewBox=&quot;0 0 36 36&quot;
+              width=&quot;2rem&quot;
+            &gt;
+              &lt;path
+                class=&quot;clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U&quot;
+                d=&quot;M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z&quot;
+              /&gt;
+            &lt;/svg&gt;
+            &lt;!--&amp;lt;Tooltip&amp;gt;--&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+         
+        &lt;p
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;&quot;
+        &gt;
+          &lt;vaadin-icon
+            class=&quot;s-xsmyvmteKo9X&quot;
+            style=&quot;font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;&quot;
+          /&gt;
+           Standard Schedule
+        &lt;/p&gt;
+         
+        &lt;span
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            class=&quot;week-time-range-container s-T5owEPu0QfA8&quot;
+          &gt;
+            &lt;div
+              class=&quot;week-time-range s-T5owEPu0QfA8&quot;
+            &gt;
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  MON
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  TUE
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  WED
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  THU
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  FRI
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SAT
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+               
+              &lt;div
+                class=&quot;s-T5owEPu0QfA8&quot;
+              &gt;
+                &lt;div
+                  class=&quot;s-T5owEPu0QfA8&quot;
+                &gt;
+                  SUN
+                &lt;/div&gt;
+                 
+                &lt;span
+                  class=&quot;s-kHzuyAY2Vbd7&quot;
+                  style=&quot;display: inline-block;&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;time-range s-kHzuyAY2Vbd7&quot;
+                  &gt;
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                     
+                    &lt;div
+                      class=&quot;separator s-kHzuyAY2Vbd7&quot;
+                    &gt;
+                      —
+                    &lt;/div&gt;
+                     
+                    &lt;input
+                      class=&quot;s-kHzuyAY2Vbd7&quot;
+                      placeholder=&quot;00:00&quot;
+                    /&gt;
+                  &lt;/span&gt;
+                   
+                   
+                &lt;/span&gt;
+                &lt;!--&amp;lt;TimeRange&amp;gt;--&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+             
+            &lt;div
+              class=&quot;s-T5owEPu0QfA8&quot;
+              style=&quot;background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; &quot;
+            &gt;
+              &lt;span
+                class=&quot;s-T5owEPu0QfA8&quot;
+                style=&quot;font-size: 14px;&quot;
+              &gt;
+                Total Hours Selected: 
+                40
+                hours
+              &lt;/span&gt;
+            &lt;/div&gt;
+             
+          &lt;/div&gt;
+          
+          &lt;!--&amp;lt;WeekTimeRange&amp;gt;--&gt;
+        &lt;/span&gt;
+         
+        &lt;div
+          class=&quot;s-xsmyvmteKo9X&quot;
+          style=&quot;width: 100%; display: flex; min-height: 4.5rem;&quot;
+        &gt;
+          &lt;label
+            class=&quot;checkbox s-xsmyvmteKo9X&quot;
+          &gt;
+            &lt;input
+              class=&quot;s-xsmyvmteKo9X&quot;
+              id=&quot;Without Schedule&quot;
+              name=&quot;options&quot;
+              type=&quot;checkbox&quot;
+            /&gt;
+             
+            &lt;label
+              class=&quot;s-xsmyvmteKo9X&quot;
+              for=&quot;Without Schedule&quot;
+            &gt;
+              &lt;span
+                class=&quot;s-xsmyvmteKo9X&quot;
+                style=&quot;margin-left: 3rem; min-height: 2rem;&quot;
+              &gt;
+                Set working hours without schedule
+              &lt;/span&gt;
+            &lt;/label&gt;
+          &lt;/label&gt;
+           
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+     
+    &lt;button
+      aria-label=&quot;Done&quot;
+      class=&quot;s-hMm0BjcyFRvh&quot;
+    &gt;
+      &lt;vaadin-icon
+        class=&quot;s-xsmyvmteKo9X&quot;
+      /&gt;
+    &lt;/button&gt;
+    &lt;!--&amp;lt;Fab&amp;gt;--&gt;
+    &lt;!--&amp;lt;JobTypeForm&amp;gt;--&gt;
+    
+    &lt;!--&amp;lt;JobType&amp;gt;--&gt;
+  &lt;/div&gt;
+&lt;/body&gt;" type="TestingLibraryElementError"><![CDATA[TestingLibraryElementError: Unable to find role="radio"
+
+<body>
+  
+  
+  <div>
+    <div
+      class="job-types s-xsmyvmteKo9X"
+    >
+      <div
+        class="s-xsmyvmteKo9X"
+        style="text-align: center; margin-bottom: 4rem;"
+      >
+        <div
+          class="row align-items-center s-xsmyvmteKo9X"
+        >
+          <p
+            class="s-xsmyvmteKo9X"
+            style="width: 75%; margin-left: 10rem; font-size: 16px;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+           
+          <div
+            class="s-xsmyvmteKo9X"
+            style="margin-left: 7.5rem;"
+          >
+            <svg
+              class="s-IRuyl3SM_s-U"
+              height="2rem"
+              style="fill: var(--remundo-primary-color);"
+              viewBox="0 0 36 36"
+              width="2rem"
+            >
+              <path
+                class="clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U"
+                d="M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z"
+              />
+            </svg>
+            <!--&lt;Tooltip&gt;-->
+          </div>
+        </div>
+         
+        <p
+          class="s-xsmyvmteKo9X"
+          style="font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;"
+        >
+          <vaadin-icon
+            class="s-xsmyvmteKo9X"
+            style="font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;"
+          />
+           Standard Schedule
+        </p>
+         
+        <span
+          class="s-xsmyvmteKo9X"
+          style="display: flex;"
+        >
+          <div
+            class="week-time-range-container s-T5owEPu0QfA8"
+          >
+            <div
+              class="week-time-range s-T5owEPu0QfA8"
+            >
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  MON
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  TUE
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  WED
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  THU
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  FRI
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SAT
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SUN
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+            </div>
+             
+            <div
+              class="s-T5owEPu0QfA8"
+              style="background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; "
+            >
+              <span
+                class="s-T5owEPu0QfA8"
+                style="font-size: 14px;"
+              >
+                Total Hours Selected: 
+                40
+                hours
+              </span>
+            </div>
+             
+          </div>
+          
+          <!--&lt;WeekTimeRange&gt;-->
+        </span>
+         
+        <div
+          class="s-xsmyvmteKo9X"
+          style="width: 100%; display: flex; min-height: 4.5rem;"
+        >
+          <label
+            class="checkbox s-xsmyvmteKo9X"
+          >
+            <input
+              class="s-xsmyvmteKo9X"
+              id="Without Schedule"
+              name="options"
+              type="checkbox"
+            />
+             
+            <label
+              class="s-xsmyvmteKo9X"
+              for="Without Schedule"
+            >
+              <span
+                class="s-xsmyvmteKo9X"
+                style="margin-left: 3rem; min-height: 2rem;"
+              >
+                Set working hours without schedule
+              </span>
+            </label>
+          </label>
+           
+        </div>
+      </div>
+    </div>
+     
+    <button
+      aria-label="Done"
+      class="s-hMm0BjcyFRvh"
+    >
+      <vaadin-icon
+        class="s-xsmyvmteKo9X"
+      />
+    </button>
+    <!--&lt;Fab&gt;-->
+    <!--&lt;JobTypeForm&gt;-->
+    
+    <!--&lt;JobType&gt;-->
+  </div>
+</body>
+
+<body>
+  
+  
+  <div>
+    <div
+      class="job-types s-xsmyvmteKo9X"
+    >
+      <div
+        class="s-xsmyvmteKo9X"
+        style="text-align: center; margin-bottom: 4rem;"
+      >
+        <div
+          class="row align-items-center s-xsmyvmteKo9X"
+        >
+          <p
+            class="s-xsmyvmteKo9X"
+            style="width: 75%; margin-left: 10rem; font-size: 16px;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+           
+          <div
+            class="s-xsmyvmteKo9X"
+            style="margin-left: 7.5rem;"
+          >
+            <svg
+              class="s-IRuyl3SM_s-U"
+              height="2rem"
+              style="fill: var(--remundo-primary-color);"
+              viewBox="0 0 36 36"
+              width="2rem"
+            >
+              <path
+                class="clr-i-solid clr-i-solid-path-1 s-IRuyl3SM_s-U"
+                d="M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm-.22,25.85a1.65,1.65,0,1,1,1.65-1.65A1.65,1.65,0,0,1,17.78,27.85Zm1.37-8.06v1.72a1.37,1.37,0,0,1-1.3,1.36h-.11a1.34,1.34,0,0,1-1.39-1.3c0-.44,0-2.76,0-2.76a1.19,1.19,0,0,1,1.12-1.31c1.57-.12,4.18-.7,4.18-3.25,0-1.83-1.41-3.07-3.43-3.07a5.31,5.31,0,0,0-4,1.92,1.36,1.36,0,0,1-2.35-.9,1.43,1.43,0,0,1,.43-1,7.77,7.77,0,0,1,6-2.69c3.7,0,6.28,2.3,6.28,5.6C24.58,17.16,22.61,19.2,19.15,19.79Z"
+              />
+            </svg>
+            <!--&lt;Tooltip&gt;-->
+          </div>
+        </div>
+         
+        <p
+          class="s-xsmyvmteKo9X"
+          style="font-size: 15px; left: 100px; text-align: left; margin-left: 1rem; padding-top: 3rem; color: var(--remundo-accent-color); font-weight: bold;"
+        >
+          <vaadin-icon
+            class="s-xsmyvmteKo9X"
+            style="font-size: 1.05rem; margin-top: -0.25rem; margin-right: 0.45rem;"
+          />
+           Standard Schedule
+        </p>
+         
+        <span
+          class="s-xsmyvmteKo9X"
+          style="display: flex;"
+        >
+          <div
+            class="week-time-range-container s-T5owEPu0QfA8"
+          >
+            <div
+              class="week-time-range s-T5owEPu0QfA8"
+            >
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  MON
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  TUE
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  WED
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  THU
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  FRI
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SAT
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+               
+              <div
+                class="s-T5owEPu0QfA8"
+              >
+                <div
+                  class="s-T5owEPu0QfA8"
+                >
+                  SUN
+                </div>
+                 
+                <span
+                  class="s-kHzuyAY2Vbd7"
+                  style="display: inline-block;"
+                >
+                  <span
+                    class="time-range s-kHzuyAY2Vbd7"
+                  >
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                     
+                    <div
+                      class="separator s-kHzuyAY2Vbd7"
+                    >
+                      —
+                    </div>
+                     
+                    <input
+                      class="s-kHzuyAY2Vbd7"
+                      placeholder="00:00"
+                    />
+                  </span>
+                   
+                   
+                </span>
+                <!--&lt;TimeRange&gt;-->
+              </div>
+            </div>
+             
+            <div
+              class="s-T5owEPu0QfA8"
+              style="background: var(--remundo-secondary-color); width: 35rem; color: var(--remundo-primary-color); border: unset; font-size: 11px; display: grid; place-items: center; padding: 7px 5px; margin-top: 40px; margin-bottom: 40px; margin-left: 30%; border-radius: 10px; "
+            >
+              <span
+                class="s-T5owEPu0QfA8"
+                style="font-size: 14px;"
+              >
+                Total Hours Selected: 
+                40
+                hours
+              </span>
+            </div>
+             
+          </div>
+          
+          <!--&lt;WeekTimeRange&gt;-->
+        </span>
+         
+        <div
+          class="s-xsmyvmteKo9X"
+          style="width: 100%; display: flex; min-height: 4.5rem;"
+        >
+          <label
+            class="checkbox s-xsmyvmteKo9X"
+          >
+            <input
+              class="s-xsmyvmteKo9X"
+              id="Without Schedule"
+              name="options"
+              type="checkbox"
+            />
+             
+            <label
+              class="s-xsmyvmteKo9X"
+              for="Without Schedule"
+            >
+              <span
+                class="s-xsmyvmteKo9X"
+                style="margin-left: 3rem; min-height: 2rem;"
+              >
+                Set working hours without schedule
+              </span>
+            </label>
+          </label>
+           
+        </div>
+      </div>
+    </div>
+     
+    <button
+      aria-label="Done"
+      class="s-hMm0BjcyFRvh"
+    >
+      <vaadin-icon
+        class="s-xsmyvmteKo9X"
+      />
+    </button>
+    <!--&lt;Fab&gt;-->
+    <!--&lt;JobTypeForm&gt;-->
+    
+    <!--&lt;JobType&gt;-->
+  </div>
+</body>
+  at waitForWrapper (node_modules\.vite\@testing-library_svelte.js:13488:25)
+  at node_modules\.vite\@testing-library_svelte.js:13567:12
+  at o.<anonymous> (test\employee-contract-setup\job-type.test.ts:92:37)]]></failure>
+    </testcase>
+    <testcase name="When I define &quot;Part Time Engagement&quot; and hours per week work plan then I can set hours per week." time="0.004" classname="Job type:" file="test\employee-contract-setup\job-type.test.ts" line="8730">
+      <failure message="Unable to find an accessible element with the role &quot;checkbox&quot; and name &quot;options&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;body&gt;
+  
+  
+  &lt;div&gt;
+    
+    Loading...
+  &lt;/div&gt;
+&lt;/body&gt;" type="TestingLibraryElementError"><![CDATA[TestingLibraryElementError: Unable to find an accessible element with the role "checkbox" and name "options"
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, <script />, <style />
+<body>
+  
+  
+  <div>
+    
+    Loading...
+  </div>
+</body>
+  at Object.getElementError (node_modules\.vite\testing-library__dom.js:8730:17)
+  at node_modules\.vite\testing-library__dom.js:9441:25
+  at node_modules\.vite\testing-library__dom.js:9421:24
+  at node_modules\.vite\testing-library__dom.js:9460:25
+  at o.<anonymous> (test\employee-contract-setup\job-type.test.ts:100:34)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\start-date-and-salary.test.ts" id="0" tests="6" skipped="0" errors="0" failures="0" time="0.29300000000000004">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Updates selected date after click on calendar&apos;s day" time="0.157" classname="Start date and salary tests" file="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+    <testcase name="Currency combobox shows country flags of 3 standard currencies and 1 coming from defaults" time="0.032" classname="Start date and salary tests" file="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+    <testcase name="As soon as currency is selected, currency symbol is set" time="0.032" classname="Start date and salary tests" file="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+    <testcase name="I Cannot enter salary lower than 0" time="0.012" classname="Start date and salary tests" file="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+    <testcase name="Start Date, Salary, Currency and Billing Entity is required" time="0.038" classname="Start date and salary tests" file="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+    <testcase name="I can select billing entity from all of my entities" time="0.022" classname="Start date and salary tests" file="test\employee-contract-setup\start-date-and-salary.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\wizard-navigation.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.03">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\wizard-navigation.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Back button is not visible if I am on the first wizard step" time="0.03" classname="Wizard navigation tests" file="test\employee-contract-setup\wizard-navigation.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\wizard-redirect-1.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.017">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\wizard-redirect-1.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Redirects to first page when state doesn&apos;t exist" time="0.017" classname="Wizard redirect tests - 1" file="test\employee-contract-setup\wizard-redirect-1.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\employee-contract-setup\wizard-redirect-2.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.016">
+    <properties>
+      <property name="test.fileName" value="test\employee-contract-setup\wizard-redirect-2.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Redirects to last finished step" time="0.016" classname="Wizard redirect tests - 2" file="test\employee-contract-setup\wizard-redirect-2.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\entity-creation-setup\mandatory-fields.test.ts" id="0" tests="2" skipped="0" errors="0" failures="0" time="0.253">
+    <properties>
+      <property name="test.fileName" value="test\entity-creation-setup\mandatory-fields.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Address line one, city and postal are required" time="0.213" classname="Address details" file="test\entity-creation-setup\mandatory-fields.test.ts"/>
+    <testcase name="Company Name and Country are required" time="0.04" classname="Address details" file="test\entity-creation-setup\mandatory-fields.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\engagment-details\engagment-details.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="2.0810000000000004">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="Displays all labels" time="0.146" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Displays all values" time="0.105" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Start date can be modified" time="0.588" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Engagement period end date is disabled when contract is Open Ended" time="0.206" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Annual Gross Salary and Currency modification is reflected on summary panel" time="0.191" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Job title can be changed so that the description in summary panel is updated and data is sent to the server" time="0.213" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Annual Gross Salary and Currency is required" time="0.177" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Engagement Type is expandable and contains Part Time/Full Time radio group" time="0.135" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Engagement Type can be changed so that the description in summary panel is updated and data is sent to the server" time="0.104" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="Engagement Type can be changed so that the description in summary panel is updated and data is sent to the server" time="0.094" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+    <testcase name="When engagement type is changed then tooltip appears next to Work Schedule item" time="0.122" classname="Engagment Details" file="test\contract-quote\engagment-details\engagment-details.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\engagment-details\work-schedule.test.ts" id="0" tests="2" skipped="0" errors="0" failures="0" time="0.20400000000000001">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\engagment-details\work-schedule.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="When is Regional Standard and the panel is expanded then I can see correctly set working hours" time="0.045" classname="Engagment Details -&gt; Work Schedule" file="test\contract-quote\engagment-details\work-schedule.test.ts"/>
+    <testcase name="When work schedule is edited then the changed data is sent to server" time="0.159" classname="Engagment Details -&gt; Work Schedule" file="test\contract-quote\engagment-details\work-schedule.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\benefits.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="0.444">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\benefits.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="contains header, info, allowances" time="0.109" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="Allowance type contains all allowance types" time="0.07" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="I can add allowance to allowances list" time="0.095" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="Total sums up all of the allowances" time="0.096" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="Overwrite existing allowances" time="0.047" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="I can remove allowance from list" time="0.015" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="When there are no allowances, then Total is not displayed and None caption is shown" time="0.002" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+    <testcase name="Adding allowance requires not empty allowance type and value" time="0.01" classname="Benefits" file="test\contract-quote\main-terms\benefits.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\candidate_details.test.ts" id="0" tests="3" skipped="0" errors="0" failures="0" time="0.5">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\candidate_details.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="can be found on main terms page and contain Full Name, Email, Nationality and Work Permit" time="0.104" classname="Candidate Details" file="test\contract-quote\main-terms\candidate_details.test.ts"/>
+    <testcase name="candidate can be changed" time="0.368" classname="Candidate Details" file="test\contract-quote\main-terms\candidate_details.test.ts"/>
+    <testcase name="when work permit is required then Remundo contact attempt info is displayed" time="0.028" classname="Candidate Details" file="test\contract-quote\main-terms\candidate_details.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\general-monthly-payment.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.094">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\general-monthly-payment.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="contains Total, Gross Salary, EmployerCost and Platform Fee, Insurances" time="0.094" classname="General Monthly Payment" file="test\contract-quote\main-terms\general-monthly-payment.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\job-description.test.ts" id="0" tests="4" skipped="0" errors="0" failures="0" time="0.438">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\job-description.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="while collapsed summary contains text shortened to 250 characters" time="0.079" classname="Job description" file="test\contract-quote\main-terms\job-description.test.ts"/>
+    <testcase name="while expanded summary is hidden" time="0.095" classname="Job description" file="test\contract-quote\main-terms\job-description.test.ts"/>
+    <testcase name="while expanded edit job description text is visible" time="0.133" classname="Job description" file="test\contract-quote\main-terms\job-description.test.ts"/>
+    <testcase name="while edited job description changes" time="0.131" classname="Job description" file="test\contract-quote\main-terms\job-description.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts" id="0" tests="13" skipped="0" errors="0" failures="0" time="0.49">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="when Signing Bonus expanded than includes description and radio buttons" time="0.027" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Set value in accordion on change" time="0.036" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="When One Off option checked than Total Bonus input and Add to Offer button are available" time="0.021" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="When None option checked than Total Bonus input and Add to Offer button are unavailable" time="0.019" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Adds One Off Incentive" time="0.145" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Removes bonus on &apos;X&apos; clicked" time="0.013" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Shows currency in Total Bonus sum input" time="0.01" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Removes bonus on radio option changed" time="0.015" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Sign Off bonus details are visible on the screen when accordion is collapsed" time="0.004" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="when expanded than includes &quot;Up to&quot; + Sum Number Input + &quot;Yearly&quot;" time="0.005" classname="Variable Compensation" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="when added then rows with currency and amount are visible and data is saved" time="0.097" classname="Variable Compensation" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="when defined then currency and amount are visible if the panel is collapsed" time="0.003" classname="Variable Compensation" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+    <testcase name="Can be removed" time="0.095" classname="Variable Compensation" file="test\contract-quote\main-terms\employment-incentives\employment-incentives.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\employment-incentives\index.test.ts" id="0" tests="1" skipped="0" errors="0" failures="0" time="0.008">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\employment-incentives\index.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="contains header, description, signing bonus, variable compensation" time="0.008" classname="Employment Incentives" file="test\contract-quote\main-terms\employment-incentives\index.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_\test\contract-quote\main-terms\employment-incentives\vesting-bonus.test.ts" id="0" tests="4" skipped="0" errors="0" failures="0" time="0.191">
+    <properties>
+      <property name="test.fileName" value="test\contract-quote\main-terms\employment-incentives\vesting-bonus.test.ts"/>
+      <property name="browser.name" value="Chromium"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="When Vesting Bonus is Selected I Can see Total Bonus, Total Months, Cliff Months" time="0.035" classname="Vesting Bonus" file="test\contract-quote\main-terms\employment-incentives\vesting-bonus.test.ts"/>
+    <testcase name="When added to Offer then bonus summary is shown" time="0.148" classname="Vesting Bonus" file="test\contract-quote\main-terms\employment-incentives\vesting-bonus.test.ts"/>
+    <testcase name="When preselected then Signing Bonus main panel has header with text &apos;Vesting Bonus Yes&apos; and bonus details" time="0.003" classname="Vesting Bonus" file="test\contract-quote\main-terms\employment-incentives\vesting-bonus.test.ts"/>
+    <testcase name="When removed then Signing Bonus main panel has header with text &apos;Signing Bonus None&apos; and the bonus is removed." time="0.005" classname="Vesting Bonus" file="test\contract-quote\main-terms\employment-incentives\vesting-bonus.test.ts"/>
+  </testsuite>
+</testsuites>

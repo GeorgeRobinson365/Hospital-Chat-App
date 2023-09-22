@@ -1,0 +1,49 @@
+{
+  "IsEncrypted": false,
+  "Host": {
+    "CORS": "*",
+    "LocalHttpPort": 7071,
+    "CORSCredentials": false
+  },
+  "Values": {
+    "Host": {
+      "CORS": "*",
+      "LocalHttpPort": 7071
+    },
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FirebaseConnection": {
+      "type": "service_account",
+      "project_id": "healthcare-web-portal",
+      "private_key_id": "3653754a59fc39d2d5a1533225ee5c9c3e76bc6e",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjmPVdmNW2MheX\nYVfKrRIkb/UTskhCwH7CVCY7rDCAMLdsA9ElRANU5eLMOvOSA6kkopza8OK5SyAc\ntqVtQFmLFC7X0Kx2gGIBXT+XMlqNyN08/oaByCcPOuOgptikQwnEW+PYk6kWJz+8\noL4k0QY6NfmRaM8KOMA2tGWmMd8Awn1WBU3/5/kKTkLrLM9MCvQeaNnEevUW8DBO\nqsmw8zQ5ew4okjNWBu47gqEgOPQeo3qZlHJ2ncskvDitpOSLxLqr6Ndbb7I1U8W3\n5Alra0v4e2daMlp6KnBDgazeM/pQI8WG5Tj6xn0O7nefQoIpMG1h03aBUyCyIap6\nvDqPMIspAgMBAAECggEAME4XCZn2Bdjk2+q7nNcVyij+7YLBxnUfkjQU90ZI9vQg\nAetfeNbSFDNEaw86AewH+rAOtYM5w5T3yFBVlPX660NJ2+E8sVv3MQ3vALKduIkA\nt8DXoHTwIVHg3Qh8Y4Sc7pGILr/MO9jxtKGzKZI5jaJGCUAi7Sr1VMb96gOcroay\nYt+iJ4l33/NesgJDQALGzW4zTPZfpulklOYQvRK/RBCIa2pbprX16LPwnJUN7HaT\nxI85CoiAtAX8LGDHiRAxFJQr1Xhur0D+3rE4XoSwP7IwHY5zekORiKk+TSaSVnyd\npHFUtkv8XfZk/7YJXzE+JDmcPt7ERdnCO00DLXfZDwKBgQD2JaS2uJv7l1eCbUHz\nu1/H2KYyOOqg0M+UlPTtigig8cepxwPJT+p8rEXNjb7YZDF2on/ZENjC0Anct1jQ\nTcN5corqoK6kieajNO3i24yT0jXCGUmtB60ni19QgSj+/ZN9RYPc5OCEnKp9zqzn\nWlL/qJIssUDkGwsBKPJDnwds/wKBgQDstTsu0c7p1MfAu71R2NU7KHghMB3sbe+W\naQo5eslnYRDszojYc2MKsVXHBQ+/XTKwnfS4bq09eVGOYAO7Wbfar8TRVznSdVTk\nwE19K4kpBLP8Lv/6LCL52di0t5Pwv3lkxbqZ54+Vx58k6ExVia38AG4293wR+NN2\n4V5cq57/1wKBgQDxk4BU1FpCUgZQu2o/C2a1fKugHrwnmMghyw+XEiHl02Vh+zB8\nIzK/qVPYqYTkW3EwPcu7/gy/Je6H8Gn6BlgSmZg9LfY5Bh6VjxzpyQ/vBCA+nxLv\n/tiyNtcU666Qk85s5AzGftrbS+cIEg8gAEX1JDxSIKTPOrtSKB2cwDdJgQKBgQCQ\ndVoVDL42PkFaAjlcBfS8Ecqelnrsm3soVBqFUcYwbTCjFLi3QFQlZmxu9UvTAdG5\nr+x10jWv2qZHOZmNcQefUr3O9Gi5ZBnXMPUZesROYCxnr1dRGjaOPMDgKVkECBbR\nxUpIOuWKBzW8lHhhi5C+xpR8vzTc0vpbBtdLvwFeKQKBgFxTDx/vrLZEdUBtXv5j\n3HxMWIR7qdvuwRgqgFbuUfGEjjdYNwA5YRSKPgArbMuhc7jFN/dQEvyiXP7AfhbQ\nXZV2pT7lda+mNwvZzWimMxEBSRN762JUWb4hisDHeHXoW0DRTrsXbZAeso1XvoMq\nt/9d1qqWdiUrlmM/IB6i0G9P\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-n2t0k@healthcare-web-portal.iam.gserviceaccount.com",
+      "client_id": "105842303134286472642",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-n2t0k%40healthcare-web-portal.iam.gserviceaccount.com"
+    },
+    "MongoConnectionString": "mongodb+srv://Hospitaladmin:gFRKHjCEJ81KeXRq@hospitalcluster.vovnion.mongodb.net/?retryWrites=true&w=majority",
+    "JWTSecret": "secret",
+    "MasterKey": "xxx"
+  },
+  "Schema": {
+    "PathRoot": "C://code//Remundo.Api//src//Remundo.Api//Schemas",
+    "File": "schema.json"
+  },
+  "FirebaseConnection": {
+    "type": "service_account",
+    "project_id": "healthcare-web-portal",
+    "private_key_id": "3653754a59fc39d2d5a1533225ee5c9c3e76bc6e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjmPVdmNW2MheX\nYVfKrRIkb/UTskhCwH7CVCY7rDCAMLdsA9ElRANU5eLMOvOSA6kkopza8OK5SyAc\ntqVtQFmLFC7X0Kx2gGIBXT+XMlqNyN08/oaByCcPOuOgptikQwnEW+PYk6kWJz+8\noL4k0QY6NfmRaM8KOMA2tGWmMd8Awn1WBU3/5/kKTkLrLM9MCvQeaNnEevUW8DBO\nqsmw8zQ5ew4okjNWBu47gqEgOPQeo3qZlHJ2ncskvDitpOSLxLqr6Ndbb7I1U8W3\n5Alra0v4e2daMlp6KnBDgazeM/pQI8WG5Tj6xn0O7nefQoIpMG1h03aBUyCyIap6\nvDqPMIspAgMBAAECggEAME4XCZn2Bdjk2+q7nNcVyij+7YLBxnUfkjQU90ZI9vQg\nAetfeNbSFDNEaw86AewH+rAOtYM5w5T3yFBVlPX660NJ2+E8sVv3MQ3vALKduIkA\nt8DXoHTwIVHg3Qh8Y4Sc7pGILr/MO9jxtKGzKZI5jaJGCUAi7Sr1VMb96gOcroay\nYt+iJ4l33/NesgJDQALGzW4zTPZfpulklOYQvRK/RBCIa2pbprX16LPwnJUN7HaT\nxI85CoiAtAX8LGDHiRAxFJQr1Xhur0D+3rE4XoSwP7IwHY5zekORiKk+TSaSVnyd\npHFUtkv8XfZk/7YJXzE+JDmcPt7ERdnCO00DLXfZDwKBgQD2JaS2uJv7l1eCbUHz\nu1/H2KYyOOqg0M+UlPTtigig8cepxwPJT+p8rEXNjb7YZDF2on/ZENjC0Anct1jQ\nTcN5corqoK6kieajNO3i24yT0jXCGUmtB60ni19QgSj+/ZN9RYPc5OCEnKp9zqzn\nWlL/qJIssUDkGwsBKPJDnwds/wKBgQDstTsu0c7p1MfAu71R2NU7KHghMB3sbe+W\naQo5eslnYRDszojYc2MKsVXHBQ+/XTKwnfS4bq09eVGOYAO7Wbfar8TRVznSdVTk\nwE19K4kpBLP8Lv/6LCL52di0t5Pwv3lkxbqZ54+Vx58k6ExVia38AG4293wR+NN2\n4V5cq57/1wKBgQDxk4BU1FpCUgZQu2o/C2a1fKugHrwnmMghyw+XEiHl02Vh+zB8\nIzK/qVPYqYTkW3EwPcu7/gy/Je6H8Gn6BlgSmZg9LfY5Bh6VjxzpyQ/vBCA+nxLv\n/tiyNtcU666Qk85s5AzGftrbS+cIEg8gAEX1JDxSIKTPOrtSKB2cwDdJgQKBgQCQ\ndVoVDL42PkFaAjlcBfS8Ecqelnrsm3soVBqFUcYwbTCjFLi3QFQlZmxu9UvTAdG5\nr+x10jWv2qZHOZmNcQefUr3O9Gi5ZBnXMPUZesROYCxnr1dRGjaOPMDgKVkECBbR\nxUpIOuWKBzW8lHhhi5C+xpR8vzTc0vpbBtdLvwFeKQKBgFxTDx/vrLZEdUBtXv5j\n3HxMWIR7qdvuwRgqgFbuUfGEjjdYNwA5YRSKPgArbMuhc7jFN/dQEvyiXP7AfhbQ\nXZV2pT7lda+mNwvZzWimMxEBSRN762JUWb4hisDHeHXoW0DRTrsXbZAeso1XvoMq\nt/9d1qqWdiUrlmM/IB6i0G9P\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-n2t0k@healthcare-web-portal.iam.gserviceaccount.com",
+    "client_id": "105842303134286472642",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-n2t0k%40healthcare-web-portal.iam.gserviceaccount.com"
+  },
+  "MongoConnectionString": "mongodb+srv://Hospitaladmin:gFRKHjCEJ81KeXRq@hospitalcluster.vovnion.mongodb.net/?retryWrites=true&w=majority",
+  "JWTSecret": "secret",
+  "MasterKey": "xxx"
+}

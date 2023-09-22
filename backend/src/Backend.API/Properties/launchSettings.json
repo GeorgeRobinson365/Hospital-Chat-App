@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Backend.API": {
+      "commandName": "Project",
+      "commandLineArgs": "--cors *"
+    }
+  }
+}
