@@ -2,14 +2,23 @@
 Web portal for a GP/hospital to offer as a service online. Both patients and doctors can register an account through the website. Once their account is manually verified by an administrator ,doctors will be manually assigned to the relevant patients. Doctors and patients then can exchange secure texts and communicate remotely through a chat system.
 
 Specifically, I will seek to add functionality to allow patients to:
+
 •	Create an account using an email and password
+
 •	Communicate with medical professionals about general issues
+
 Additionally, I will seek to create the functionality to allow doctors / medical staff to:
+
 •	Create an account using an email and password
+
 •	Respond to patients’ general queries
+
 Finally, I will seek to create the functionality to allow an admin to:
+
 •	Approve an account as a genuine doctor/member of hospital staff
+
 •	Approve account as genuine patient
+
 •	Assign Doctors to relevant patient’s accounts
 
 
