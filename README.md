@@ -1,19 +1,19 @@
 # Hospitalwebapp
 Web portal for a GP/hospital to offer as a service online. Both patients and doctors can register an account through the website. Once their account is manually verified by an administrator ,doctors will be manually assigned to the relevant patients. Doctors and patients then can exchange secure texts and communicate remotely through a chat system.
 
-Specifically, I will seek to add functionality to allow patients to:
+Specifically functionality exists to allow patients to:
 
 •	Create an account using an email and password
 
 •	Communicate with medical professionals about general issues
 
-Additionally, I will seek to create the functionality to allow doctors / medical staff to:
+Additionally functionality to allow doctors / medical staff to:
 
 •	Create an account using an email and password
 
 •	Respond to patients’ general queries
 
-Finally, I will seek to create the functionality to allow an admin to:
+Finally functionality to allow an admin to:
 
 •	Approve an account as a genuine doctor/member of hospital staff
 
@@ -26,7 +26,7 @@ This project makes use of Svelte C# and Typescript to create a Web server.
 Firebase acts as the authentication server.
  MongoDB is used as a database. 
 
-To see showcase of functionality open Functionality.doc
+To see showcase of functionality open Functionality.docx
 
 
 
