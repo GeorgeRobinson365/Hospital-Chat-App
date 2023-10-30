@@ -28,6 +28,7 @@ Firebase acts as the authentication server.
 
 To see showcase of functionality open Functionality.docx
 
+![image](https://github.com/GeorgeRobinson365/Hospital-Chat-App/assets/110357060/3a1221b2-cc2f-41a4-a267-b21f027c3346)
 
 
 To initalise: 
