@@ -21,14 +21,13 @@ Finally functionality to allow an admin to:
 
 •	Assign Doctors to relevant patient’s accounts
 
+Architecture: ![image](https://github.com/GeorgeRobinson365/Hospital-Chat-App/assets/110357060/2ef1ea7e-7808-418c-b22a-2d6942506108)
 
-This project makes use of Svelte C# and Typescript to create a Web server.
-Firebase acts as the authentication server.
- MongoDB is used as a database. 
+
 
 To see showcase of functionality open Functionality.docx
 
-![image](https://github.com/GeorgeRobinson365/Hospital-Chat-App/assets/110357060/3a1221b2-cc2f-41a4-a267-b21f027c3346)
+
 
 
 To initalise: 
